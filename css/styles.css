@@ -1043,6 +1043,10 @@ width: 264px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.send-btn:hover,
+.send-btn:focus {
+    background-color: var(--lilac);
+}
 
 .is-hidden {
     opacity: 0;
