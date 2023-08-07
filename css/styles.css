@@ -970,6 +970,52 @@ img {
     color: var(--logo-color);
 }
 
+.subscribe-footer {
+    display: block;
+    margin-left: 80px;
+}
+
+.subscribe-title {
+    display: block;
+    color: var(--white);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    margin-bottom: 16px;
+}
+
+.footer-input {
+    width: 264px;
+    height: 40px;
+    padding-left: 16px;
+    background-color: transparent;
+    font-size: 12px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    border-radius: 4px;
+        border: 1px solid var(--white, #FFF);
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.subscribe-btn {
+    display: inline-flex;
+        padding: 8px 24px;
+        justify-content: center;
+        align-items: center;
+        gap: 16px;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;
+        color: var(--white);
+        cursor: pointer;
+        background-color: var(--logo-color);
+        border-radius: 4px;
+}
+
+.sub-icon {
+    fill: #ffffff;
+}
 
 .is-hidden {
     opacity: 0;
