@@ -378,7 +378,7 @@
     </footer>
 
 
-    <div class="backdrop is-hidden" data-modal>
+    <div class="backdrop" data-modal>
         <div class="modal">
             <button type="button" class="close-modal-btn" data-modal-close>
                 <svg class="modal-icon" width="8" height="8">
@@ -386,6 +386,47 @@
                     </use>
                 </svg>
             </button>
+            <p class="modal-title">Leave your contacts and we will call you back</p>
+            <form>
+                <div class="input-container">
+                    <label for="user-name" class="modal-label">Name</label>
+                    <div class="input-container">
+                    <input type="text" name="user-name" class="modal-input" placeholder id="user-name">
+                    <svg class="modal-icon-label" width="18" height="24">
+                        <use href="./images/icons(1).svg#icon-user-name"></use>
+                    </svg>
+                    </div>
+                    <label for="userphone" class="modal-label">Phone</label>
+                    <div class="input-container">
+                        <input type="tel" name="user-name" class="modal-input" placeholder id="user-phone">
+                        <svg class="modal-icon-label" width="18" height="24">
+                            <use href="./images/icons(1).svg#icon-phone"></use>
+                        </svg>
+                    </div>
+                    <label for="user-email" class="modal-label">Email</label>
+                    <div class="input-container">
+                        <input type="email" name="email" class="modal-input" placeholder id="user-email">
+                        <svg class="modal-icon-label" width="18" height="24">
+                            <use href="./images/icons(1).svg#icon-email"></use>
+                        </svg>
+                    </div>
+                    <div class="textarea-container">
+                        <label for="user-comment" class="modal-label">Comment</label>
+                            <textarea name="user-comment" id="user-comment" cols="30" rows="10" placeholder="Text input" class="modal-textra"></textarea>
+                    </div>
+                    <div class="checkbox-modal">
+                        <input id="user-privacy" type="checkbox" value="true" name="user-privacy" class="input-privacy visually-hidden">
+                        <label for="user-privacy" class="textra-label">I accept the terms and conditions of the 
+                            <span class="label-span">
+                                <svg class="textra-icon"  width="10" height="8">
+                                    <use href="./images/icons(1).svg#icon-Property"></use>
+                                </svg>
+                        </span>
+                        </label>
+                    </div>
+                    <button type="submit" class="send-btn">Send</button>
+                </div>
+            </form>
         </div>
     </div>
     <script src="./js/modal.js"></script>
